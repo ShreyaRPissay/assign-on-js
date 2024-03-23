@@ -1,0 +1,15 @@
+function removeChar(str){
+ //You got this!
+  const arr = str.split("");
+if (arr.length <= 2){
+  return ""
+}
+  else{
+    let temp_arr = []
+    for(let i=1; i<=arr.length-2;i++){
+      temp_arr.push(arr[i])
+    }
+     const result = temp_arr.join("")
+      return result
+  }
+};
