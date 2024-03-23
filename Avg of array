@@ -8,11 +8,3 @@ total += marks[i]
   return Math.floor(avg)
 }
 
-// Another Solution
-
-function getAverage(marks){
-  //TODO : calculate the downward rounded average of the marks array
-  const sumOf = marks.reduce((acc,mark)=>acc+mark,0)
-  const avg = sumOf/marks.length
-  return Math.floor(avg)
-}
